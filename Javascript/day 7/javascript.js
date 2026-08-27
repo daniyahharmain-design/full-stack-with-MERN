@@ -115,7 +115,7 @@ function getprice(){
     return 50;
 
 }
-let price = getPrice();
+let price = getprice();
 let tax = price * 0.1;
 let Total = price + tax;
 console.log(total); // Output: 55
@@ -144,12 +144,26 @@ printPattern();
 
 // que 2
 function studentinfo(){
-    console.log("");
-    console.log("");
-    console.log("");
-
+    console.log("Name: John Doe");
+    console.log("Age: 20");
+    console.log("Course: JavaScript");
 
 }
+studentinfo()
+
+// QUE 3
+function multiplyThree( a,b , c){
+    let xyz= a*b*c
+    console.log(xyz);
+
+// logic to multiply three numbers
+}
+    multiplyThree(2, 3, 4); // Should print: 24
+    multiplyThree(5, 5, 2); // Should print: 50
+
+
+
+
 
 
 
