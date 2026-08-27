@@ -89,8 +89,6 @@ console.log(result); // Output: 15
 let total = sum(100, 200);
 console.log(total); // Output: 300
 
-
-
 // QUE 10
 
 
@@ -129,5 +127,30 @@ return "Hello, " + name;
 let message = getGreeting("Alice");
 console.log(message); // Output: Hello, Alice
 console.log(getGreeting("Bob")); // Output: Hello, Bob
+
+// topic name basic function name
+
+// assigment day 7
+// Section 1: Introduction to Functions
+
+function printPattern() {
+    console.log("*");
+    console.log("**");
+    console.log("***");
+    console.log("****");
+}
+
+printPattern();
+
+// que 2
+function studentinfo(){
+    console.log("");
+    console.log("");
+    console.log("");
+
+
+}
+
+
 
 
