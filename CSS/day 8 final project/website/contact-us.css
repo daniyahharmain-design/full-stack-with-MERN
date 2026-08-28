@@ -1,0 +1,658 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/*================ TOP BAR =================*/
+
+.top-bar{
+
+    background:#1f4aa8;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+
+    padding:8px 80px;
+
+    font-size:14px;
+}
+
+.left span{
+
+    margin-right:20px;
+}
+
+/*================ NAVBAR =================*/
+
+nav{
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 80px;
+
+}
+
+.logo h2{
+
+    color:#1f4aa8;
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+}
+
+nav ul li{
+
+    margin-left:25px;
+
+}
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-weight:bold;
+
+}
+
+.active{
+
+    color:#1f4aa8;
+}
+
+/*================ HERO =================*/
+
+.hero{
+
+    background:linear-gradient(to right,#1f4aa8,#16a34a);
+
+    color:white;
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+.hero h1{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+}
+
+/*================ CONTACT SECTION =================*/
+
+.contact-section{
+
+    width:90%;
+
+    margin:60px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    width:23%;
+
+    background:white;
+
+    text-align:center;
+
+    padding:35px 20px;
+
+    border-radius:12px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+
+}
+
+.icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+.blue{
+
+    background:#dbeafe;
+
+    color:#2563eb;
+
+}
+
+.green{
+
+    background:#dcfce7;
+
+    color:#16a34a;
+
+}
+
+.purple{
+
+    background:#f3e8ff;
+
+    color:#9333ea;
+
+}
+
+.orange{
+
+    background:#ffedd5;
+
+    color:#ea580c;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#666;
+
+    line-height:28px;
+
+}
+
+/*================ MAP SECTION =================*/
+
+.map-section{
+
+    width:90%;
+
+    margin:70px auto;
+
+    text-align:center;
+
+}
+
+.sub-text{
+
+    color:gray;
+
+    margin:15px 0 35px;
+
+}
+
+.map-box iframe{
+
+    width:100%;
+
+    height:450px;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+
+.map-info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:30px;
+
+}
+
+.location-box,
+.action-box{
+
+    width:48%;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+
+    text-align:left;
+
+}
+
+.action-box a{
+
+    display:block;
+
+    text-decoration:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+    text-align:center;
+
+    margin-top:15px;
+
+    border-radius:6px;
+
+}
+
+.green-btn{
+
+    background:#16a34a !important;
+
+}
+
+
+/*================ DEPARTMENT =================*/
+
+.department-section{
+
+    background:#f7f7f7;
+
+    padding:70px;
+
+    text-align:center;
+
+}
+
+.department-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:40px;
+
+}
+
+.department-card{
+
+    width:31%;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+
+    text-align:left;
+
+}
+
+.department-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.department-card p{
+
+    margin:12px 0;
+
+    color:#555;
+
+}
+
+
+/*================ REACH =================*/
+
+.reach-section{
+
+    width:90%;
+
+    margin:80px auto;
+
+    text-align:center;
+
+}
+
+.reach-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:40px;
+
+}
+
+.reach-card{
+
+    width:30%;
+
+}
+
+.reach-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:25px;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+}
+
+.reach-card p{
+
+    color:#666;
+
+    line-height:28px;
+
+}
+
+/*================ CTA =================*/
+
+.cta-section{
+
+    background:linear-gradient(to right,#2563eb,#16a34a);
+
+    text-align:center;
+
+    color:white;
+
+    padding:70px 20px;
+
+}
+
+.cta-section h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.cta-section p{
+
+    margin-bottom:30px;
+
+    line-height:30px;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+.btn-call,
+.btn-email{
+
+    text-decoration:none;
+
+    padding:14px 30px;
+
+    border-radius:6px;
+
+    font-weight:bold;
+
+}
+
+.btn-call{
+
+    background:white;
+
+    color:#2563eb;
+
+}
+
+.btn-email{
+
+    border:2px solid white;
+
+    color:white;
+
+}
+
+
+
+/*================ FOOTER =================*/
+
+footer{
+
+    background:#111827;
+
+    color:white;
+
+    padding:60px 80px 30px;
+
+}
+
+.footer-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    flex-wrap:wrap;
+
+}
+
+.footer-box{
+
+    width:23%;
+
+}
+
+.footer-box h3{
+
+    margin-bottom:20px;
+
+}
+
+.footer-box p{
+
+    color:#ccc;
+
+    line-height:28px;
+
+}
+
+.footer-box ul{
+
+    list-style:none;
+
+}
+
+.footer-box ul li{
+
+    margin-bottom:12px;
+
+    color:#ccc;
+
+}
+
+.footer-box ul li a{
+
+    color:#ccc;
+
+    text-decoration:none;
+
+}
+
+.footer-box ul li a:hover{
+
+    color:white;
+
+}
+
+.green{
+
+    color:#22c55e;
+
+    font-weight:bold;
+
+}
+
+footer hr{
+
+    margin:40px 0 20px;
+
+    border:1px solid #333;
+
+}
+
+.copyright{
+
+    text-align:center;
+
+    color:#aaa;
+
+}
+
+
+
+/*================ RESPONSIVE =================*/
+
+@media(max-width:992px){
+
+.top-bar,
+nav,
+.contact-section,
+.department-container,
+.reach-container,
+.footer-container,
+.map-info{
+
+    flex-direction:column;
+
+}
+
+nav ul{
+
+    margin-top:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.card,
+.department-card,
+.reach-card,
+.footer-box,
+.location-box,
+.action-box{
+
+    width:100%;
+
+    margin-bottom:20px;
+
+}
+
+.cta-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.hero h1{
+
+    font-size:36px;
+
+}
+
+.hero p{
+
+    font-size:17px;
+
+}
+
+.top-bar{
+
+    padding:10px 20px;
+
+    text-align:center;
+
+}
+
+nav{
+
+    padding:20px;
+
+}
+
+footer{
+
+    padding:40px 20px;
+
+}
+
+}

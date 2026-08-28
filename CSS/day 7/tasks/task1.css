@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sidebar{
+      
+    margin: 10px;
+    padding: 10px;
+    border: 4px;
+    border-color: black;
+    color: black;
+    flex-direction: column;
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-around;
+}

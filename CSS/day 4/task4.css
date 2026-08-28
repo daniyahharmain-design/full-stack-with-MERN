@@ -1,0 +1,11 @@
+.card{
+    width: 50vmax;
+    height: 50vmax;
+    padding: 25px;
+    border: 1px solid gray;
+    background-color: aqua;
+    border-radius: 12px;
+    margin: 50px 50px 50px 90px;
+
+
+}

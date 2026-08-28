@@ -1,0 +1,41 @@
+/* Body Styling */
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+/* Card Styling */
+.card{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px lightgray;
+}
+
+/* Heading */
+h2{
+    text-align: center;
+    color: darkblue;
+}
+
+/* Story Text */
+.story{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* First Letter */
+.story::first-letter{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Text Selection */
+.story::selection{
+    background-color: yellow;
+    color: black;
+}
