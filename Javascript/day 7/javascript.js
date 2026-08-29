@@ -152,14 +152,41 @@ function studentinfo(){
 studentinfo()
 
 // QUE 3
-function multiplyThree( a,b , c){
-    let xyz= a*b*c
-    console.log(xyz);
+// function multiplyThree( a,b , c){
+//     let xyz= a*b*c
+//     console.log(xyz);
+//     }
 
 // logic to multiply three numbers
-}
-    multiplyThree(2, 3, 4); // Should print: 24
-    multiplyThree(5, 5, 2); // Should print: 50
+
+    // multiplyThree(2, 3, 4); // Should print: 24
+    // multiplyThree(5, 5, 2); // Should print: 50
+
+
+    function multiplyThree(a,b,c){
+        console.log(a*b*c);
+    }
+    multiplyThree(1,2,3);
+    multiplyThree(1,2,3);
+
+
+    // QUE 
+
+    function VoteEligibility (name,age){
+        if (age>18) {
+            console.log(name + "is eligile to vote");
+            
+        } else {
+            console.log(name + "not eligible");
+            
+        }
+    }
+    VoteEligibility("alice",20);
+    VoteEligibility("bob",13);
+
+    // QUE
+    
+    
 
 
 
