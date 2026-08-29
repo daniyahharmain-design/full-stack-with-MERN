@@ -1,0 +1,15 @@
+body{
+    color: brown;
+
+}
+
+parent{
+    font-size: 40px;
+    color: aquamarine;
+}
+
+.special{
+    font-size: 30px;
+    color: blue;
+}
+

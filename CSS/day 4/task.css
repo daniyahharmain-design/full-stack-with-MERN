@@ -1,0 +1,23 @@
+x
+ul{
+    
+    display: flex;
+
+}
+a{
+    color: gray;
+    
+}
+
+nav a {
+    color: blue;
+    
+}
+a:active {
+    color: white;
+    text-size-adjust: bold;
+
+}
+body{
+    background-color: orange;
+}

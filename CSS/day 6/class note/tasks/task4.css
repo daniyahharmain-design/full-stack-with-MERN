@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero{
+    position: relative;
+    /* background-color: rgba(225, 4, 4, 0.387); */
+    background-image: url(https://images.pexels.com/photos/30004057/pexels-photo-30004057.jpeg?cs=srgb&dl=pexels-steve-30004057.jpg&fm=jpg);
+    background-position: center;
+    top: 45vh;
+    width: 700px;
+    right:-8vw;
+    }
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

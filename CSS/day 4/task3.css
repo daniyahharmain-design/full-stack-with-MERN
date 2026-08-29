@@ -1,0 +1,28 @@
+/* 0-2-1 */
+.card .title h2 {
+    font-size: large;
+    color:red;
+
+}
+
+/* 1-1-2 */
+#header .nav ul li {
+    font-size: larger;
+    color: aqua;
+
+}
+
+/* 0-3-0 */
+.btn.primary.large {
+    color: burlywood;
+
+}
+
+/* 2-0-1 */
+#app #main section {
+
+}
+
+#main.content.primary.large.rounded.active  p span strong em i b u {
+    color: red;
+}

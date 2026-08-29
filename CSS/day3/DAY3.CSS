@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: auto;
+
+}
+ 
+
+h2{
+    color: aqua;
+}
+
+#unique-header {
+
+    background-color: blueviolet;
+}
+
+.card{
+    background: red;
+}
+.highlight {
+    background-color: blanchedalmond;
+
+}
+
+/* .container p { */
+     /* color: pink; */
+
+.container > p {
+    border-color:greenyellow;
+}
+
+h3+p{
+    color: blue;
+}
+:hover{
+    color: rgb(38, 16, 203);
+}
+
+::first-letter{
+    color: yellow;
+}
+.story::selection{
+
+    color:pink;
+}
+
+li:nth-of-type(even){
+    background-color: brown;
+}

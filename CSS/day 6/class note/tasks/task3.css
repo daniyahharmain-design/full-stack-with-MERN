@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: rgb(255, 235, 205);
+}
+
+h2{
+    position: sticky;
+    top: 40px;
+    background-color: azure;
+
+    
+}

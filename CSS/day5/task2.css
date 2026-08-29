@@ -1,0 +1,155 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+    padding:40px;
+}
+
+/* Heading */
+
+h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+section{
+    margin-bottom:50px;
+}
+
+/* =========================
+   Display Mode Boxes
+========================= */
+
+.box{
+    background:#3498db;
+    color:white;
+    padding:20px;
+    margin:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* Block */
+
+.block-mode{
+    display:block;
+}
+
+/* Inline */
+
+.inline-mode{
+    display:inline;
+    background:#e67e22;
+}
+
+/* Inline Block */
+
+.inline-block-mode{
+    display:inline-block;
+    background:#2ecc71;
+    width:220px;
+    height:70px;
+    line-height:30px;
+}
+
+/* =========================
+   Product Cards
+========================= */
+
+.product{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.product h3{
+    font-size:22px;
+}
+
+/* =========================
+   Badge System
+========================= */
+
+.badge{
+    display:inline-block;
+
+    width:70px;
+    height:28px;
+
+    line-height:28px;
+
+    text-align:center;
+
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+
+    border-radius:20px;
+
+    margin-left:10px;
+}
+
+/* Badge Colors */
+
+.new{
+    background:#2ecc71;
+}
+
+.sale{
+    background:#3498db;
+}
+
+.hot{
+    background:#e74c3c;
+}
+
+.limited{
+    background:#9b59b6;
+}
+
+/* =========================
+   Footer
+========================= */
+
+footer{
+    background:#222;
+    padding:25px;
+    text-align:center;
+}
+
+.social-links{
+    margin-top:10px;
+}
+
+.social-icon{
+    display:inline-block;
+
+    width:120px;
+    height:45px;
+
+    line-height:45px;
+
+    text-decoration:none;
+    color:white;
+
+    background:#444;
+
+    margin:8px;
+
+    border-radius:6px;
+
+    transition:.3s;
+}
+
+.social-icon:hover{
+    background:#3498db;
+}

@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.feature-card h2 {
+    background-image: url();
+    color: #333;
+    margin: 15px 0 10px;
+}
+
+.feature-card p {
+    color: #555;
+    font-size: 15px;
+}
+
+.feature-card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: royalblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.feature-card button:hover {
+    background: darkblue;
+}
